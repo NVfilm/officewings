@@ -1,60 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OfficeWings</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <title>OfficeWings - Coworking Spaces</title>
 
+  <link rel="stylesheet" href="style.css"/>
+</head>
 <body>
 
-  <header>
-    <h1>OfficeWings</h1>
+  <!-- HEADER -->
+
+  <header class="header">
+    <div class="logo">OfficeWings</div>
 
     <nav>
       <a href="#">Home</a>
       <a href="#">Spaces</a>
-      <a href="#">About</a>
+      <a href="#">Cities</a>
       <a href="#">Contact</a>
     </nav>
   </header>
 
+
+  <!-- HERO SECTION -->
+
   <section class="hero">
 
-    <div class="hero-text">
-      <h2>Find Your Perfect Coworking Space</h2>
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>Find Your Perfect Coworking Space</h1>
 
       <p>
-        Premium office spaces, meeting rooms and flexible workspaces.
+        Premium office spaces, meeting rooms & flexible workspaces across India.
       </p>
 
-      <button>Book A Tour</button>
-    </div>
+      <div class="search-box">
 
-    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop">
+        <input type="text" placeholder="Search City"/>
 
-  </section>
+        <button>Explore Now</button>
 
-  <section class="cards">
-
-    <div class="card">
-      <h3>Private Cabins</h3>
-      <p>Modern private office spaces.</p>
-    </div>
-
-    <div class="card">
-      <h3>Meeting Rooms</h3>
-      <p>Professional meeting experience.</p>
-    </div>
-
-    <div class="card">
-      <h3>High Speed WiFi</h3>
-      <p>Fast internet for productivity.</p>
+      </div>
     </div>
 
   </section>
+
+
+  <!-- STATS -->
+
+  <section class="stats">
+
+    <div class="stat">
+      <h2>100+</h2>
+      <p>Locations</p>
+    </div>
+
+    <div class="stat">
+      <h2>25+</h2>
+      <p>Cities</p>
+    </div>
+
+    <div class="stat">
+      <h2>10k+</h2>
+      <p>Happy Clients</p>
+    </div>
+
+  </section>
+
+
+  <!-- SPACES -->
+
+  <section class="spaces">
+
+    <h2>Popular Coworking Spaces</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop"/>
+
+        <div class="card-content">
+          <h3>Premium Office</h3>
+          <p>Delhi NCR</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?q=80&w=1200&auto=format&fit=crop"/>
+
+        <div class="card-content">
+          <h3>Startup Hub</h3>
+          <p>Gurgaon</p>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1497366412874-3415097a27e7?q=80&w=1200&auto=format&fit=crop"/>
+
+        <div class="card-content">
+          <h3>Creative Workspace</h3>
+          <p>Noida</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- AMENITIES -->
+
+  <section class="amenities">
+
+    <h2>Workspace Amenities</h2>
+
+    <div class="amenity-grid">
+
+      <div>High Speed WiFi</div>
+      <div>Meeting Rooms</div>
+      <div>Tea & Coffee</div>
+      <div>24/7 Access</div>
+      <div>Parking</div>
+      <div>Power Backup</div>
+
+    </div>
+
+  </section>
+
+
+  <!-- TESTIMONIAL -->
+
+  <section class="testimonial">
+
+    <h2>What Clients Say</h2>
+
+    <p>
+      “Best coworking platform for startups & remote teams.”
+    </p>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section class="contact">
+
+    <h2>Book Your Workspace</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name"/>
+
+      <input type="tel" placeholder="Phone Number"/>
+
+      <button>Request Call</button>
+
+    </form>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h3>OfficeWings</h3>
+
+    <p>
+      India's modern coworking discovery platform.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>
