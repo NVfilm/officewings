@@ -382,3 +382,17 @@ footer{
     padding:20px;
     font-size:24px;
 }
+.testimonials{
+    text-align:center;
+    padding:80px 8%;
+}
+
+.testimonials h2{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.testimonials p{
+    font-size:22px;
+    color:#cbd5e1;
+}
