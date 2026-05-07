@@ -1,192 +1,80 @@
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial;
-}
+/* WHY US */
 
-body{
-  background:#0f172a;
-  color:white;
-}
-
-.header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 8%;
-  background:black;
-}
-
-.header nav a{
-  color:white;
-  text-decoration:none;
-  margin-left:20px;
-}
-
-.logo{
-  font-size:28px;
-  font-weight:bold;
-}
-
-.hero{
-  height:90vh;
-  background:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1600&auto=format&fit=crop');
-  background-size:cover;
-  background-position:center;
-  position:relative;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-}
-
-.overlay{
-  position:absolute;
-  width:100%;
-  height:100%;
-  background:rgba(0,0,0,0.6);
-}
-
-.hero-content{
-  position:relative;
-  z-index:2;
-}
-
-.hero h1{
-  font-size:60px;
-  margin-bottom:20px;
-}
-
-.hero p{
-  font-size:20px;
-  margin-bottom:30px;
-}
-
-.search-box{
-  display:flex;
-  gap:10px;
-  justify-content:center;
-}
-
-.search-box input{
-  padding:15px;
-  width:300px;
-  border:none;
-  border-radius:10px;
-}
-
-.search-box button{
-  padding:15px 25px;
-  border:none;
-  background:#f97316;
-  color:white;
-  border-radius:10px;
-  cursor:pointer;
-}
-
-.stats{
-  display:flex;
-  justify-content:center;
-  gap:80px;
-  padding:60px 20px;
-  background:#111827;
-}
-
-.stat h2{
-  font-size:40px;
-}
-
-.spaces{
+.why-us{
   padding:80px 8%;
 }
 
-.spaces h2{
+.why-us h2{
   text-align:center;
-  margin-bottom:50px;
   font-size:40px;
+  margin-bottom:50px;
 }
 
-.cards{
+.why-grid{
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
   gap:30px;
 }
 
-.card{
-  background:#1e293b;
-  border-radius:20px;
-  overflow:hidden;
-}
-
-.card img{
-  width:100%;
-  height:250px;
-  object-fit:cover;
-}
-
-.card-content{
-  padding:20px;
-}
-
-.amenities{
-  padding:80px 8%;
-  background:#111827;
-}
-
-.amenities h2{
-  text-align:center;
-  margin-bottom:40px;
-}
-
-.amenity-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-  gap:20px;
-}
-
-.amenity-grid div{
+.why-card{
   background:#1e293b;
   padding:30px;
-  border-radius:15px;
+  border-radius:20px;
   text-align:center;
 }
 
-.testimonial{
-  padding:80px 8%;
-  text-align:center;
-}
 
-.contact{
+/* ABOUT US */
+
+.about-us{
   padding:80px 8%;
   background:#111827;
   text-align:center;
 }
 
-.contact form{
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-  max-width:400px;
+.about-us h2{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.about-us p{
+  max-width:900px;
+  margin:auto;
+  line-height:1.8;
+}
+
+
+/* RATINGS */
+
+.ratings{
+  padding:80px 8%;
+  text-align:center;
+}
+
+.rating-box{
+  background:#1e293b;
+  padding:50px;
+  border-radius:20px;
+  max-width:500px;
   margin:auto;
 }
 
-.contact input{
+.rating-box h1{
+  font-size:70px;
+  color:#f97316;
+}
+
+.rating-box p{
+  margin-top:15px;
+  font-size:18px;
+}
+
+
+/* TEXTAREA */
+
+textarea{
   padding:15px;
   border:none;
   border-radius:10px;
-}
-
-.contact button{
-  padding:15px;
-  border:none;
-  background:#f97316;
-  color:white;
-  border-radius:10px;
-}
-
-footer{
-  text-align:center;
-  padding:40px;
-  background:black;
+  min-height:120px;
 }
