@@ -327,3 +327,20 @@ footer{
     }
 
 }
+.city-box{
+    padding:80px 10%;
+    background:#071739;
+    color:white;
+    border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.city-box h2{
+    font-size:40px;
+    margin-bottom:15px;
+    color:#ff7a00;
+}
+
+.city-box p{
+    font-size:18px;
+    opacity:0.8;
+}
