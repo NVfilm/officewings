@@ -316,3 +316,56 @@ font-size:40px;
 }
 
 }
+/* RATINGS SECTION */
+
+.ratings-section{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:80px 10%;
+    flex-wrap:wrap;
+}
+
+.rating-box{
+    background:#0d1b3d;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    width:260px;
+    transition:0.4s;
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.rating-box:hover{
+    transform:translateY(-10px);
+}
+
+.rating-box h2{
+    font-size:42px;
+    color:#ff7a00;
+    margin-bottom:10px;
+}
+
+.rating-box p{
+    color:#ccc;
+    font-size:18px;
+}
+
+
+/* CONTACT NUMBER */
+
+.contact-number{
+    text-align:center;
+    font-size:28px;
+    color:white;
+    margin-bottom:35px;
+    margin-top:15px;
+    font-weight:600;
+}
+
+.contact-sub{
+    text-align:center;
+    color:#ccc;
+    margin-bottom:15px;
+    font-size:20px;
+}
