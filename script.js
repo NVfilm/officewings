@@ -1,26 +1,32 @@
-function searchCity(){
+const searchBtn = document.getElementById("searchBtn");
+const cityInput = document.getElementById("cityInput");
 
-    const city =
-    document.getElementById("cityInput").value.toLowerCase();
+searchBtn.addEventListener("click", () => {
 
-    if(city === "gurgaon"){
-        alert("Showing coworking spaces in Gurgaon");
+    const city = cityInput.value.toLowerCase().trim();
+
+    if(city === "delhi"){
+        document.getElementById("delhi")
+        .scrollIntoView({ behavior: "smooth" });
     }
 
-    else if(city === "delhi"){
-        alert("Showing coworking spaces in Delhi");
+    else if(city === "gurgaon"){
+        document.getElementById("gurgaon")
+        .scrollIntoView({ behavior: "smooth" });
     }
 
     else if(city === "noida"){
-        alert("Showing coworking spaces in Noida");
+        document.getElementById("noida")
+        .scrollIntoView({ behavior: "smooth" });
     }
 
     else if(city === "greater noida"){
-        alert("Showing coworking spaces in Greater Noida");
+        document.getElementById("greaternoida")
+        .scrollIntoView({ behavior: "smooth" });
     }
 
     else{
-        alert("Location coming soon");
+        alert("City not found");
     }
 
-}
+});
