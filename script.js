@@ -1,32 +1,53 @@
 const searchBtn = document.getElementById("searchBtn");
-const cityInput = document.getElementById("cityInput");
 
-searchBtn.addEventListener("click", () => {
+searchBtn.addEventListener("click", function () {
 
-    const city = cityInput.value.toLowerCase().trim();
+    const city = document
+        .getElementById("cityInput")
+        .value
+        .trim()
+        .toLowerCase();
 
     if(city === "delhi"){
-        document.getElementById("delhi")
-        .scrollIntoView({ behavior: "smooth" });
+
+        window.open(
+            "https://www.google.com/search?q=best+coworking+spaces+in+delhi",
+            "_blank"
+        );
+
     }
 
     else if(city === "gurgaon"){
-        document.getElementById("gurgaon")
-        .scrollIntoView({ behavior: "smooth" });
+
+        window.open(
+            "https://www.google.com/search?q=best+coworking+spaces+in+gurgaon",
+            "_blank"
+        );
+
     }
 
     else if(city === "noida"){
-        document.getElementById("noida")
-        .scrollIntoView({ behavior: "smooth" });
+
+        window.open(
+            "https://www.google.com/search?q=best+coworking+spaces+in+noida",
+            "_blank"
+        );
+
     }
 
     else if(city === "greater noida"){
-        document.getElementById("greaternoida")
-        .scrollIntoView({ behavior: "smooth" });
+
+        window.open(
+            "https://www.google.com/search?q=best+coworking+spaces+in+greater+noida",
+            "_blank"
+        );
+
     }
 
     else{
-        alert("City not found");
+
+        alert("Please enter: Delhi, Gurgaon, Noida or Greater Noida");
+
     }
 
 });
