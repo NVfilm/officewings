@@ -1,25 +1,30 @@
-function searchCity() {
+function searchCity(){
 
-    let city = document.getElementById("cityInput").value.toLowerCase();
+const city =
+document.getElementById("cityInput").value.toLowerCase();
 
-    if(city === "gurgaon"){
-        window.location.href = "#gurgaon";
-    }
+if(city === "gurgaon"){
+window.location.href =
+"https://www.google.com/search?q=gurgaon+coworking+space";
+}
 
-    else if(city === "delhi"){
-        window.location.href = "#delhi";
-    }
+else if(city === "delhi"){
+window.location.href =
+"https://www.google.com/search?q=delhi+coworking+space";
+}
 
-    else if(city === "noida"){
-        window.location.href = "#noida";
-    }
+else if(city === "noida"){
+window.location.href =
+"https://www.google.com/search?q=noida+coworking+space";
+}
 
-    else if(city === "greater noida"){
-        window.location.href = "#greaternoida";
-    }
+else if(city === "greater noida"){
+window.location.href =
+"https://www.google.com/search?q=greater+noida+coworking+space";
+}
 
-    else{
-        alert("Location not found");
-    }
+else{
+alert("Available Cities: Gurgaon, Delhi, Noida, Greater Noida");
+}
 
 }
