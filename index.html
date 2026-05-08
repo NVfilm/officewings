@@ -1,206 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OfficeWings</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OfficeWings</title>
 
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
+  <!-- NAVBAR -->
 
-<header class="navbar">
+  <header class="navbar">
 
-<div class="logo">
-OfficeWings
-</div>
+    <div class="logo">OfficeWings</div>
 
-<nav>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+  </header>
 
-</nav>
+  <!-- HERO SECTION -->
 
-</header>
+  <section class="hero" id="home">
 
-<!-- HERO -->
+    <div class="overlay"></div>
 
-<section class="hero" id="home">
+    <div class="hero-content">
 
-<div class="overlay"></div>
+      <h1>
+        Find Your Perfect <br>
+        Coworking Space
+      </h1>
 
-<div class="hero-content">
+      <p>
+        Premium office spaces, meeting rooms & flexible workspaces across India.
+      </p>
 
-<h1>Find Your Perfect Workspace</h1>
+      <div class="search-box">
 
-<p>
-Premium coworking spaces, meeting rooms & flexible offices across India.
-</p>
+        <input type="text" id="cityInput" placeholder="Search City">
 
-<div class="search-box">
+        <button onclick="searchCity()">
+          Explore Now
+        </button>
 
-<input type="text" id="cityInput" placeholder="Search City">
+      </div>
 
-<button onclick="searchCity()">
-Explore Now
-</button>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- SERVICES -->
-
-<section class="services" id="services">
-
-<h2 class="section-title">Our Services</h2>
-
-<div class="service-grid">
-
-<div class="service-card">
-
-<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200">
-
-<h3>Private Cabins</h3>
-
-<p>
-Fully furnished premium office cabins for startups & businesses.
-</p>
-
-</div>
-
-<div class="service-card">
-
-<img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200">
-
-<h3>Meeting Rooms</h3>
-
-<p>
-Modern meeting rooms with high speed internet & smart screens.
-</p>
-
-</div>
-
-<div class="service-card">
-
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200">
-
-<h3>Open Workspaces</h3>
-
-<p>
-Flexible shared desks for freelancers & remote teams.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ABOUT -->
-
-<section class="about" id="about">
-
-<div class="about-content">
-
-<div class="about-text">
-
-<h2>Why Choose OfficeWings?</h2>
-
-<p>
-OfficeWings provides modern coworking spaces with premium interiors,
-high-speed internet, meeting rooms, networking opportunities and
-24/7 access for professionals & startups.
-</p>
-
-<div class="stats">
-
-<div>
-<h3>100+</h3>
-<p>Locations</p>
-</div>
-
-<div>
-<h3>25+</h3>
-<p>Cities</p>
-</div>
-
-<div>
-<h3>10k+</h3>
-<p>Happy Clients</p>
-</div>
-
-</div>
-
-</div>
-
-<div class="about-image">
-
-<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200">
-
-</div>
-
-</div>
-
-</section>
-<section class="ratings-section">
-
-    <div class="rating-box">
-        <h2>4.5 ★</h2>
-        <p>Average Customer Rating</p>
     </div>
 
-    <div class="rating-box">
-        <h2>10,000+</h2>
-        <p>Happy Clients Across India</p>
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services" id="services">
+
+    <h2 class="section-title">
+      Our Services
+    </h2>
+
+    <div class="service-container">
+
+      <div class="service-card">
+
+        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop">
+
+        <h3>Private Cabins</h3>
+
+        <p>
+          Fully furnished premium office spaces for startups & teams.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop">
+
+        <h3>Meeting Rooms</h3>
+
+        <p>
+          Smart meeting rooms with high-speed internet & modern setup.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=1200&auto=format&fit=crop">
+
+        <h3>Open Workspace</h3>
+
+        <p>
+          Flexible coworking desks for freelancers & creators.
+        </p>
+
+      </div>
+
     </div>
 
-    <div class="rating-box">
-        <h2>25+</h2>
-        <p>Premium Locations</p>
+  </section>
+
+  <!-- ABOUT -->
+
+  <section class="about" id="about">
+
+    <h2 class="section-title">
+      Why Choose Us
+    </h2>
+
+    <div class="about-container">
+
+      <div class="about-box">
+        <h3>100+</h3>
+        <p>Locations</p>
+      </div>
+
+      <div class="about-box">
+        <h3>25+</h3>
+        <p>Cities</p>
+      </div>
+
+      <div class="about-box">
+        <h3>10k+</h3>
+        <p>Happy Clients</p>
+      </div>
+
+      <div class="about-box">
+        <h3>4.5 ★</h3>
+        <p>Customer Ratings</p>
+      </div>
+
     </div>
 
-</section>
-<!-- CONTACT -->
+  </section>
 
-<section class="contact" id="contact">
+  <!-- HAPPY CLIENTS -->
 
-<h2 class="section-title">Contact Us</h2>
+  <section class="clients" id="clients">
 
-<p class="contact-sub">
-Book your coworking space today.
-</p>
+    <h2 class="section-title">
+      Happy Customers
+    </h2>
 
-<div class="contact-info">
-<p>📞 +91 8700495183</p>
-</div>
+    <div class="client-container">
 
-<form>
+      <div class="client-card">
 
-</section>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop">
 
-<!-- FOOTER -->
+        <h3>Startup Team</h3>
 
-<footer>
+        <p>
+          “Amazing workspace with modern interiors and fast internet.”
+        </p>
 
-<p>
-© 2026 OfficeWings. All Rights Reserved.
-</p>
+      </div>
 
-</footer>
+      <div class="client-card">
 
-<script src="script.js"></script>
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+
+        <h3>Marketing Agency</h3>
+
+        <p>
+          “Best coworking office experience we’ve ever had.”
+        </p>
+
+      </div>
+
+      <div class="client-card">
+
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop">
+
+        <h3>Freelancer Community</h3>
+
+        <p>
+          “Professional atmosphere and premium facilities.”
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+
+  <section class="contact" id="contact">
+
+    <h2 class="section-title">
+      Contact Us
+    </h2>
+
+    <p class="contact-text">
+      Book your coworking space today.
+    </p>
+
+    <div class="contact-number">
+      📞 +91 8700495183
+    </div>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Your Name" required>
+
+      <input type="tel" placeholder="Phone Number" required>
+
+      <textarea placeholder="Tell us your requirement"></textarea>
+
+      <button type="submit">
+        Request Callback
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 OfficeWings. All Rights Reserved.
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
+
 </html>
