@@ -1,26 +1,25 @@
-console.log("OfficeWings Loaded");
 function searchCity() {
 
     let city = document.getElementById("cityInput").value.toLowerCase();
 
-    if(city === "delhi"){
-        window.location.href = "#delhi";
-    }
-
-    else if(city === "mumbai"){
-        window.location.href = "#mumbai";
-    }
-
-    else if(city === "bangalore"){
-        window.location.href = "#bangalore";
-    }
-
-    else if(city === "gurgaon"){
+    if(city === "gurgaon"){
         window.location.href = "#gurgaon";
     }
 
+    else if(city === "delhi"){
+        window.location.href = "#delhi";
+    }
+
+    else if(city === "noida"){
+        window.location.href = "#noida";
+    }
+
+    else if(city === "greater noida"){
+        window.location.href = "#greaternoida";
+    }
+
     else{
-        alert("City not found");
+        alert("Location not found");
     }
 
 }
